@@ -1,0 +1,28 @@
+{
+    "name": "kevenmarion/phptips001",
+    "description": "Conhecendo o Composer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KevenMarioN",
+            "email": "kevenmario.n.r@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/KevenMarioN"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+        },
+    "autoload": {
+        "psr-4": {
+            "Source\\" : "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer" : "1.1.*"
+    }
+}
